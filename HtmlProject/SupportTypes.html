@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Supporting Component types (t)</title>
+
+    <link href="wwwroot/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="wwwroot/style.css" rel="stylesheet" />
+    <script src="wwwroot/payneFooter.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Supporting Component types (t)</h1>
+        <table class="table table-success table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Type</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                    <th>Example Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><span class="crimson-marker-left">a</span></td>
+                    <td>BO &mdash; Business Object class library</td>
+                    <td><span class="blue-marker">a</span><span class="crimson-marker">a</span>MiLst</td>
+                    <td>Customer &mdash; Letters List on the Customer Springboard</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td>Add &mdash; Service Transaction class</td>
+                    <td>Add &mdash; Service Transaction class</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><span class="crimson-marker-left">g</span></td>
+                    <td>Generic library or client-side library</td>
+                    <td><span class="blue-marker">g</span><span class="crimson-marker">g</span>CmLog</td>
+                    <td>List &mdash; Global List Filters of CRMs</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><span class="crimson-marker-left">t</span></td>
+                    <td>Executable</td>
+                    <td><span class="blue-marker">g</span><span class="crimson-marker">t</span>Gen</td>
+                    <td>gtGenApp &mdash; base Application</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><span class="crimson-marker-left">v</span></td>
+                    <td>Windows Service</td>
+                    <td><span class="blue-marker">g</span><span class="crimson-marker">v</span>Fsv</td>
+                    <td>gvFsvins &mdash; FAST Windows Services Installer</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-auto">
+                <span style="font-weight: bold">Control/Web Document Types</span>
+            </div>
+        </div>
+
+        <ul class="list-group w-75">
+            <li class="list-group-item">Core web documents start with "FAST." in front of the doc name for both interface and other documents (e.g.FAST.<span class="blue-marker">A</span><span class="crimson-marker">D</span><span class="crimson-marker">A</span>CC and FAST.DEXBNK</li>
+            <li class="list-group-item">Site specific web documents should start with a three-letter code describing the subsystem name followed by a period (.) then a description of the document (e.g. RTN.IIT, ACC.IIT). For site control docs, the doc should be the same as the control, but use a "." instead of a " " (e.g. FE.<span class="blue-marker">B</span><span class="crimson-marker">S</span>SRC)</li>
+        </ul>
+    </div>
+    <script>
+        window.addEventListener("load", createHeaderAndFooter);
+    </script>
+</body>
+</html>

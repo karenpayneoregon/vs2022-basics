@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>FAST Database standards</title>
+
+    <link href="wwwroot/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="wwwroot/style.css" rel="stylesheet" />
+    <script src="wwwroot/payneFooter.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Database standards</h1>
+        <table class="table table-success table-striped table-bordered">
+            <thead>
+                <tr class="shaded text-center align-middle">
+                    <th>Id</th>
+                    <th>Table Type</th>
+                    <th>Prefix</th>
+                    <th>Example1</th>
+                    <th>Example2</th>
+                    <th>Example3</th>
+                    <th>Example4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Data Table</td>
+                    <td>tbl/tb_</td>
+                    <td>tblAccountInfo</td>
+                    <td>tb_AccountInfo</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Reference Table</td>
+                    <td>rfr</td>
+                    <td>rfrAccountType</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Language Table</td>
+                    <td>lan</td>
+                    <td>lanAccountType</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Site-specific tables</td>
+                    <td>rfrFE,lanFE_,tblFE_,tb_FE_</td>
+                    <td>rfrFE_AccountType</td>
+                    <td>lanFE_AccountType</td>
+                    <td>tblFE_DEXCounty</td>
+                    <td>tb_FE_DEXCounty</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Table Index</td>
+                    <td>i01, i02 etc.</td>
+                    <td>i01AccountInfo (Primary key typically)</td>
+                    <td>i02AccountInfo (additional indexes)</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Site-specific Index</td>
+                    <td>s01, s02</td>
+                    <td>s01AccountInfo</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Table Column Names</td>
+                    <td>fxxxFieldName (xxx = SQL data type prefix)</td>
+                    <td>fstrFirstName</td>
+                    <td>fcurBalanc</td>
+                    <td>flngCustomerKey</td>
+                    <td>(none)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        window.addEventListener("load", createHeaderAndFooter);
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Data Types</title>
+
+    <link href="wwwroot/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="wwwroot/style.css" rel="stylesheet" />
+    <script src="wwwroot/payneFooter.js"></script>
+</head>
+<body>
+    <div class="container mb-5">
+        <h1>Data types</h1>
+        <table class="table table-success table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Data Type</th>
+                    <th>Prefix</th>
+                    <th>Example</th>
+                    <th>SqlData Type</th>
+                    <th>Length</th>
+                    <th>Object Property</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Array</td>
+                    <td>a[type]</td>
+                    <td>astrParameters</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Boolean</td>
+                    <td>bln</td>
+                    <td>blnActive</td>
+                    <td>(none)</td>
+                    <td>1 byte</td>
+                    <td>Bln</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Byte</td>
+                    <td>byt</td>
+                    <td>bytFIleMaker</td>
+                    <td>tinyint</td>
+                    <td>1 byte</td>
+                    <td>Obj</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Byte Array</td>
+                    <td>img</td>
+                    <td>imgFile</td>
+                    <td>varbinary(MAX)</td>
+                    <td>Varies</td>
+                    <td>Obj/img</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Char</td>
+                    <td>chr</td>
+                    <td>chrCheckCode</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                    <td>Obj</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Date</td>
+                    <td>dtm</td>
+                    <td>dtmCreated</td>
+                    <td>datetime</td>
+                    <td>8 bytes</td>
+                    <td>Dtm</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Decimal</td>
+                    <td>cur</td>
+                    <td>curCustomerBalance</td>
+                    <td>money</td>
+                    <td>8 bytes</td>
+                    <td>Cur</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Double</td>
+                    <td>dbl</td>
+                    <td>dblCITTaxRate</td>
+                    <td>float</td>
+                    <td>8 bytes</td>
+                    <td>Dbl</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Enum</td>
+                    <td>enum</td>
+                    <td>enmRecordType</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                    <td>Lng</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Generic.Dictionary</td>
+                    <td>dct</td>
+                    <td>dctTables</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Generic.List</td>
+                    <td>l[type]</td>
+                    <td>lintWeekDays</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Int16 (Short)</td>
+                    <td>int</td>
+                    <td>intLinesPerPage</td>
+                    <td>smallint</td>
+                    <td>2 bytes</td>
+                    <td>int</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Int32 (integer)</td>
+                    <td>lng</td>
+                    <td>lngCustomerKey</td>
+                    <td>int</td>
+                    <td>4 bytes</td>
+                    <td>Lng</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Int64 (Long)</td>
+                    <td>i64</td>
+                    <td>i64DeltaKey</td>
+                    <td>bigint</td>
+                    <td>8 bytes</td>
+                    <td>i64</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Object</td>
+                    <td>obj/vnt</td>
+                    <td>vntData</td>
+                    <td>varbinary(MAX)</td>
+                    <td>Varies</td>
+                    <td>Obj/img</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>String</td>
+                    <td>str</td>
+                    <td>strCustomerName</td>
+                    <td>varchar</td>
+                    <td>Varies</td>
+                    <td>Str</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Text.RegularExpressions.Regex</td>
+                    <td>rgx</td>
+                    <td>rgxTimeout</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        window.addEventListener("load", createHeaderAndFooter);
+    </script>
+
+</body>
+</html>

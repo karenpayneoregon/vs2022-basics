@@ -1,0 +1,38 @@
+tr.shaded th {
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+}
+
+.blue-marker {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: blue;
+}
+
+.blue-marker-borderless {
+    color: blue;
+}
+
+.crimson-marker {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: crimson;
+}
+
+.crimson-marker-borderless {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: crimson;
+}
+
+.crimson-marker-left {
+    color: crimson;
+}
+
+
+/*p::first-letter {
+    font-weight: bold;
+    color: blue;
+}*/
+

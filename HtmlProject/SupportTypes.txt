@@ -1,0 +1,13 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-auto">
+            <span style="font-weight: bold">Control/Web Document Types</span>
+        </div>
+    </div>
+
+    <ul class="list-group w-75">
+        <li class="list-group-item">Core web documents start with "FAST." in front of the doc name for both interface and other documents (e.g.FAST.<span class="blue-marker">A</span><span class="crimson-marker">D</span><span class="crimson-marker">A</span>CC and FAST.DEXBNK</li>
+        <li class="list-group-item">Site specific web documents should start with a three-letter code describing the subsystem name followed by a period (.) then a description of the document (e.g. RTN.IIT, ACC.IIT). For site control docs, the doc should be the same as the control, but use a "." instead of a " " (e.g. FE.<span  class="blue-marker">B</span ><span  class="crimson-marker">S</span >SRC)</li>
+    </ul>
+</div>

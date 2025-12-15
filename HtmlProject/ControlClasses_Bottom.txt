@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <div class="col-auto">
+            <span style="font-weight: bold">Class</span>: Xxxxxxxxx
+        </div>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item">Class names may be up to 12 characters long</li>
+        <li class="list-group-item">The class names should be named according to the major functions they provide</li>
+    </ul>
+</div>

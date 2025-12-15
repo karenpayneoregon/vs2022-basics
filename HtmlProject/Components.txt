@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-auto">
+            <span style="font-weight: bold">Subsystems</span>
+        </div>
+    </div>
+    <ul class="list-group w-75">
+        <li class="list-group-item blue-marker-borderless"><span style="font-weight: bold">s</span> = Subsystem</li>
+        <li class="list-group-item crimson-marker-borderless"><span style="font-weight: bold">t</span> = type</li>
+        <li class="list-group-item">Xx = two-letter identifier for the subsystem </li>
+        <li class="list-group-item">Yyy = 3-letter identifier for the project </li>
+    </ul>
+</div>

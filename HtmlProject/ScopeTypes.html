@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Scope types</title>
+
+    <link href="wwwroot/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="wwwroot/style.css" rel="stylesheet" />
+    <script src="wwwroot/payneFooter.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Scope types</h1>
+        <table class="table table-success table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Scope Type</th>
+                    <th>Fast Object</th>
+                    <th>Prefix</th>
+                    <th>Example 1</th>
+                    <th>Example 2</th>
+                    <th>Example 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Constant</td>
+                    <td></td>
+                    <td>c</td>
+                    <td>cstrWorkType</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Local Variable</td>
+                    <td></td>
+                    <td>[<span style="color: crimson;font-weight: bold">no prefix</span>]</td>
+                    <td>lngRefundKey</td>
+                    <td>strLastName</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Member level variable</td>
+                    <td></td>
+                    <td>m</td>
+                    <td>mDta</td>
+                    <td>mlngAccountKey</td>
+                    <td>mrfrTransTypes</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Parameter</td>
+                    <td></td>
+                    <td>p</td>
+                    <td>plngWorkItemKey</td>
+                    <td>(none)</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Shared Variables</td>
+                    <td></td>
+                    <td>s</td>
+                    <td>sstrId</td>
+                    <td>sstrStreetName</td>
+                    <td>(none)</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Static Variables</td>
+                    <td></td>
+                    <td>t</td>
+                    <td>tlngCustomerKey</td>
+                    <td>trfrWebReqTypes</td>
+                    <td>(none)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        window.addEventListener("load", createHeaderAndFooter);
+    </script>
+
+</body>
+</html>
