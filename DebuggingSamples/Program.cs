@@ -5,10 +5,6 @@ internal partial class Program
 {
     static void Main(string[] args)
     {
-        //BadExampleForAskingForInteger();
-        //GetIntegerInputProactively();
-
-        GetAndDisplayIntegerInput();
 
         SpectreConsoleHelpers.ExitPrompt();
     }
@@ -21,9 +17,9 @@ internal partial class Program
             var value = Console.ReadLine();
             int result = Convert.ToInt32(value);
         }
-        catch (Exception e)
+        catch (Exception exception)
         {
-            Console.WriteLine(e);
+            Console.WriteLine(exception);
         }
     }
 
